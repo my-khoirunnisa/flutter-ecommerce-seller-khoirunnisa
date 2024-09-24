@@ -1,0 +1,8 @@
+part of 'get_categories_bloc.dart';
+
+@freezed
+class GetCategoriesEvent with _$GetCategoriesEvent {
+  const factory GetCategoriesEvent.started() = _Started;
+  //get categories
+  const factory GetCategoriesEvent.getCategories() = _GetCategories;
+}
